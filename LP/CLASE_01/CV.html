@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Currículum Vitae</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #cacad1;
+    margin: 0;
+    padding: 0;
+  }
+  .resume-container {
+    width: 25cm; /* Ancho similar a A4 en centímetros */
+    height: 29.7cm; /* Alto similar a A4 en centímetros */
+    margin: 1.5cm auto; /* Márgenes superior e inferior para centrar el contenido */
+    background-color: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    padding-right: 5rem;
+    width: 25%; /* Cambiar el ancho del encabezado */
+  }
+
+  .entrada {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 1rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #f4f4f4; /* Cambiar el color de fondo */
+    padding: 2rem;
+  }
+  .left-column {
+    flex: 1;
+  }
+  .right-column {
+    flex: 10;
+    padding-left: 2rem; /* Cambiar el padding para ajustar la separación de la columna derecha */
+  }
+  .section {
+    margin: 0 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #ccc;
+    background-color: #fff; /* Cambiar el color de fondo */
+  }
+  .h1 {
+    color: #f4f4f4;
+  }
+  h1::first-line {
+    color: #999; /* Cambia esto al color deseado */
+  }
+  h2 {
+    color: #333;
+  }
+  h3 {
+    color: #555;
+    margin-top: 0;
+  }
+  p {
+    color: #666;
+    margin: 0.5rem 0;
+  }
+  .profile-img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+</style>
+</head>
+<body>
+  <div class="resume-container">
+    <header>
+      <br>
+      <img src="https://previews.123rf.com/images/sifotography/sifotography1610/sifotography161000093/64448687-nervioso-estudiante-joven-estresado-siente-inc%C3%B3modo-mirando-a-la-c%C3%A1mara-con-ansiedad-antojo-de-algo.jpg" alt="Foto Personal" class="profile-img">
+      
+      <p>Estudiante </p>
+      <div class="entrada">
+        <div><hr>
+          <h2 class="h1" >CONTACTO</h2>
+          <ul>
+            <li>+51 923 298 231 </li>
+            <li>joseMiguel@gmail.com</li>
+            <li>Perú DF</li>
+          </ul>
+        </div>
+        <div>
+          <br><hr>
+          <h2 class="h1">HABILIDADES</h2>
+          <ul>
+            <li>lenguajes: python y java</li>
+            <li>HTML5, CSS3 y JavaScript</li>            
+            <li>Experiencia en diseño </li>
+            <li>Manejo de bases de datos SQL</li>
+            <li>Versionado con Git</li>
+          </ul>
+        </div>
+        <div>
+          <br><hr>
+          <h2 class="h1">IDIOMA</h2>
+          <ul>
+            <li>Español: Español nativo </li>
+            <li>Ingles nivel intermedio</li>
+            </ul>
+        </div>
+      </div>
+    </header>
+    <div class="container right-column">
+      <br> <h1 style="font-size: 3em;">Jose Miguel <br> Condo Huamani</h1>
+
+      <div class="section">        
+        <h2>Resumen Profesional</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae porro quasi officia explicabo? Explicabo, quam ipsa hic, inventore modi alias, delectus debitis omnis quos architecto perferendis dolorum illo excepturi dolorem!</p>
+      </div>
+      <div class="section">
+        <h2>Educación</h2>
+        <p><strong>2022:</strong> Puno, Juliaca</p>
+        <p><strong>Carrera:</strong> Ingenieria de Sistemas</p>
+      </div>
+      <div class="section">
+        <h2>Experiencia Laboral</h2>
+        <h3>Desarrollador Web - ABC Company</h3>
+        <p><strong>Fecha:</strong> Enero 2020 - Presente</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut enim id purus mollis tempor.</p>
+      </div>
+      <div class="section">
+        <h2>Educación</h2>
+        <h3>Grado en Informática - Universidad XYZ</h3>
+        <p><strong>Fecha:</strong> Septiembre 2016 - Junio 2020</p>
+        <p>Curabitur tristique nisl vel ornare tincidunt.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
