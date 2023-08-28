@@ -1,0 +1,46 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    color: #9296b3;
+    margin-top: 0;
+  }
+ul li{
+    display: inline;
+    padding-right: 50px;
+}
+
+.perfil{
+    padding-top: 50px;
+    display: flex;
+}
+
+.dato{
+width: 40%;
+}
+
+.foto{
+width: 60%;
+}
+
+.foto img{
+    width: 100%;
+}
+.informacion{
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+}
+footer{
+    margin-top: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+

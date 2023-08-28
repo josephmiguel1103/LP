@@ -1,0 +1,121 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.logo:hover{
+    transition-duration: 0.25s;
+    transform: scale(1.2) translate(10px,10px);
+}
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul li{
+    display: inline;
+    padding-right: 40px;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 5px;    
+}
+ul li a:hover {
+    border-bottom: 4px solid #de687e;
+}
+.perfil{
+    width: 80%;
+    padding-top: 50px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+.datos{
+    width: 40%;
+}
+
+.foto{
+    width: 60%;
+    background-image: url(img/foto.jpeg);
+    background-size:cover;
+    background-position: 50% 30%;
+    /* border-radius: 50%; */
+    margin-left: 10px;
+    filter:grayscale();
+    transition-duration: 1s;
+}
+.foto:hover{
+    filter: none;
+    /* transition-duration: 1s;
+    filter: invert();
+    filter:grayscale()  */
+}
+.datos p{
+    color: darkgray;
+    text-align: justify;
+}
+.boton{
+    background-color: #8f72f8;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: none;
+    box-shadow: 2px 3px 3px darkgray;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+.informacion{
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color:#de687e ;
+    color: aliceblue;
+}
+.contenedor{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+}
+.rojo{
+    color: #de687e;
+}
+.datos h3{
+    font-family: monospace;
+}
+.nombre{
+    font-size: 2.2em;
+}
+footer{
+    margin-top: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    padding: 10px 20px 10px 20px;
+}
+
+@media (max-width: 600px){
+    .perfil{
+        display:block;
+    }
+    .datos{
+        width: 100%;
+    }
+    .foto{
+        margin-top: 20px 0 0 0;
+        width: 100%;
+        height: 200px;
+    }
+    .contenedor{
+        display: block;
+    }
+    .boton{
+        margin-left: 33%;
+    }
+}

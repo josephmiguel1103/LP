@@ -1,0 +1,7 @@
+.nombres{
+    display: flex;
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+}
